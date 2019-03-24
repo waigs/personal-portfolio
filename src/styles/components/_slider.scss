@@ -1,0 +1,28 @@
+.owl-nav {
+  position: absolute;
+  top: 182px;
+  left: -31px;
+
+  .owl-prev,
+  .owl-next {
+    background-image: url('../images/slider-icons-s7c169c286e.png');
+    background-repeat: no-repeat;
+    text-indent: -999em;
+    margin-bottom: 0.5em;
+    display: block;
+    width: 19px;
+    height: 19px;
+  }
+
+  .owl-next {
+    background-position: 0 0;
+  }
+  .owl-prev {
+    background-position: 0 -19px;
+  }
+}
+
+.gatsby-image-wrapper {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,51 @@
+{
+  "name": "waigs-gatsby-folio",
+  "private": true,
+  "description": "Redeveloping my portfolio using Gatsby and Netlify.",
+  "version": "1.0.0",
+  "author": "Waigwa Gatamu (Waigs)",
+  "dependencies": {
+    "gatsby": "^2.1.30",
+    "gatsby-image": "^2.0.32",
+    "gatsby-plugin-manifest": "^2.0.23",
+    "gatsby-plugin-netlify": "^2.0.12",
+    "gatsby-plugin-netlify-cms": "^3.0.14",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.9",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.27",
+    "gatsby-remark-images": "^3.0.10",
+    "gatsby-remark-relative-images": "^0.2.2",
+    "gatsby-source-filesystem": "^2.0.24",
+    "gatsby-transformer-remark": "^2.3.3",
+    "gatsby-transformer-sharp": "^2.1.16",
+    "lodash": "^4.17.11",
+    "netlify-cms": "^2.6.1",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "prettier": "^1.16.4",
+    "react-markdown": "^4.0.6",
+    "react-owl-carousel2": "^0.3.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waigs/waigs-gatsby-folio"
+  }
+}

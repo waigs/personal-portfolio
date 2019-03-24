@@ -1,0 +1,17 @@
+.footer-container {
+  padding-bottom: 20px;
+  width: 100%;
+
+  p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+    color: $orange;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

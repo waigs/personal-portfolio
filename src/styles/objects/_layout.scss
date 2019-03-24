@@ -1,0 +1,60 @@
+.wrapper {
+  *zoom: 1;
+  max-width: 79em;
+  _width: 79em;
+  padding: 0 1em;
+  margin: 0 auto;
+  overflow: hidden;
+
+  @include clearfix;
+}
+
+.row {
+  @include clearfix;
+  margin: 0 0 50px;
+  border-bottom: 1px solid #ddd;
+  padding: 0 0 50px;
+
+  &__col1 {
+    width: 21.69492%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    transition: all 0.2s ease;
+  }
+  &__col2 {
+    width: 71.18644%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+}
+
+.devices {
+  margin: 0;
+  @include clearfix;
+
+  li {
+    margin: 0.5em;
+    height: 64px;
+    float: left;
+    background-image: url("../images/device-icons-s33ad7960b7.png");
+    background-repeat: no-repeat;
+
+    &.devices__screen {
+      background-position: 0 -64px;
+      width: 64px;
+    }
+    &.devices__tablet {
+      background-position: 0 -128px;
+      width: 48px;
+    }
+    &.devices__mobile {
+      background-position: 0 0;
+      width: 32px;
+    }
+  }
+}

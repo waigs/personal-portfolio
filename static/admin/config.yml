@@ -1,0 +1,119 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/assets
+public_folder: assets
+
+display_url: 'https://www.waigs.me'
+
+collections:
+  - name: pages
+    label: Page
+    files:
+      - file: src/pages/home/index.md
+        label: Home
+        name: home
+        fields:
+          - {
+              label: Template Key,
+              name: templateKey,
+              widget: hidden,
+              default: index-page,
+            }
+          - {
+              label: Hero,
+              name: hero,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Hero Description,
+                    name: heroDescription,
+                    widget: string,
+                  },
+                  {
+                    label: Hero Description Mobile,
+                    name: heroDescriptionMobile,
+                    widget: string,
+                  },
+                ],
+            }
+          - {
+              label: SEO & Meta,
+              name: seo,
+              widget: object,
+              fields:
+                [
+                  { label: Browser Title, name: browserTitle, widget: string },
+                  { label: Description, name: description, widget: string },
+                  { label: Author, name: author, widget: string },
+                ],
+            }
+  - name: projects
+    label: Projects
+    folder: src/pages/projects
+    create: true
+    fields:
+      - {
+          label: Template Key,
+          name: templateKey,
+          widget: hidden,
+          default: projects,
+        }
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: string }
+      - { label: Date, name: date, widget: date }
+      - {
+          label: Tags,
+          name: tags,
+          widget: list,
+          fields: [{ label: Tag Name, name: tagName, widget: string }],
+        }
+      - {
+          label: Devices,
+          name: devices,
+          widget: list,
+          hint: 'Choose either mobile,tablet,screen',
+          fields: [{ label: Device Name, name: deviceName, widget: string }],
+        }
+      - {
+          label: Slider Images,
+          name: sliderImages,
+          widget: list,
+          fields: [{ label: Image, name: image, widget: image }],
+        }
+  - name: navFooter
+    label: Nav & Footer
+    files:
+      - file: src/pages/navbar/index.md
+        label: Navbar
+        name: navbar
+        fields:
+          - {
+              label: Template Key,
+              name: templateKey,
+              widget: hidden,
+              default: navbar,
+            }
+          - {
+              label: Menu Items,
+              name: menuItems,
+              widget: list,
+              fields:
+                [
+                  { label: Icon Name, name: iconName, widget: string },
+                  { label: link URL, name: linkUrl, widget: string },
+                ],
+            }
+      - file: src/pages/footer/index.md
+        label: Footer
+        name: footer
+        fields:
+          - {
+              label: Template Key,
+              name: templateKey,
+              widget: hidden,
+              default: footer,
+            }
+          - { label: Footer Text, name: footerText, widget: markdown }

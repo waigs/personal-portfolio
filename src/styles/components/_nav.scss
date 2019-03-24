@@ -1,0 +1,54 @@
+.nav {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: auto;
+
+  li {
+    float: left;
+    margin: 0.5em;
+
+    button {
+      border: 0;
+      background-position: 0 -64px;
+      background-image: url('../images/nav-icons-sf2717e84a2.png');
+      background-repeat: no-repeat;
+      background-color: transparent;
+      width: 32px;
+      height: 32px;
+      text-indent: -999em;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    a {
+      background-image: url('../images/nav-icons-sf2717e84a2.png');
+      background-repeat: no-repeat;
+      width: 32px;
+      height: 32px;
+      text-indent: -999em;
+      display: block;
+
+      &.nav__icons-linkedin {
+        background-position: 0 -32px;
+      }
+      &.nav__icons-github {
+        background-position: 0 0;
+      }
+    }
+  }
+
+  li.nav__hamburger {
+    margin-top: 14px;
+  }
+
+  &__icons {
+    display: none;
+
+    &.collapse {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.btn {
+  font-size: 15px;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      gradientType=0,
+      startColorstr='#FF4B4B43',
+      endColorstr='#FF151513'
+    );
+  background-color: #4b4b43;
+  border: 0;
+  color: white;
+  text-shadow: #080807 0 -1px 0;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #3e3e37;
+}
+.btn:active {
+  background-color: #353530;
+}
+.btn.disabled,
+.btn[disabled] {
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
