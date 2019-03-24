@@ -4,9 +4,11 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import ProjectList from '../components/ProjectList'
+import SEO from '../components/SEO'
 
 export const IndexPageTemplate = ({ heroData }) => (
   <>
+    <SEO keywords={[`waigs`, `gatsby`, `react`]} />
     <Hero data={heroData} />
   </>
 )
