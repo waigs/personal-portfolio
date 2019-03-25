@@ -12,7 +12,6 @@ const HTML = props => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -25,6 +24,7 @@ const HTML = props => {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
       </body>
     </html>
   )
