@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import PropTypes from "prop-types"
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 class Navbar extends Component {
   state = {
@@ -13,13 +13,13 @@ class Navbar extends Component {
   render() {
     const { data } = this.props
     const { collapsed } = this.state
-    const navClass = collapsed ? "" : "collapse"
+    const navClass = collapsed ? '' : 'collapse'
     const navbarData = data.edges[0].node.frontmatter
 
     return (
       <ul className="nav">
         <li className="nav__hamburger">
-          <button onClick={this.toggleCollapse} />
+          <button onClick={this.toggleCollapse}>Nav</button>
         </li>
         <li className={`nav__icons ${navClass}`}>
           <ul>

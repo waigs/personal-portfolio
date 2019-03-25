@@ -65,7 +65,7 @@ export default () => (
                 sliderImages {
                   image {
                     childImageSharp {
-                      fluid(maxWidth: 660, quality: 90) {
+                      fluid(maxWidth: 660, quality: 50) {
                         ...GatsbyImageSharpFluid
                       }
                     }
