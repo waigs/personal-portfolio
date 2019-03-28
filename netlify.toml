@@ -4,3 +4,8 @@
 [build.environment]
   YARN_VERSION = "1.12.3"
   YARN_FLAGS = "--no-ignore-optional"
+[[redirects]]
+  from = "https://waigs.netlify.com"
+  to = "https://www.waigs.me"
+  status = 200
+  force = true
