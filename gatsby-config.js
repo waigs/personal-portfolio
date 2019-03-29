@@ -62,6 +62,7 @@ module.exports = {
         icon: `src/images/favicon.ico`,
       },
     },
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
