@@ -54,10 +54,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `waigs-gatsby-folio`,
-        short_name: `folio`,
+        short_name: `Waigs-Portfolio`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#2f2f2f`,
+        theme_color: `#2f2f2f`,
         display: `minimal-ui`,
         icon: `src/images/favicon.ico`,
       },
