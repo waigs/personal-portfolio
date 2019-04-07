@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm run build && npm run build-storybook"
+  command = "yarn build && yarn build-storybook"
 [build.environment]
   YARN_VERSION = "1.12.3"
   YARN_FLAGS = "--no-ignore-optional"
