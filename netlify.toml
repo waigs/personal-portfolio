@@ -1,5 +1,5 @@
 [build]
-  command = "rm -rf node_modules && rm -rf yarn.lock && yarn build && yarn build-storybook"
+  command = "yarn build"
   publish = "public"
 [build.environment]
   YARN_VERSION = "1.12.3"
