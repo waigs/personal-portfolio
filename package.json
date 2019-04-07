@@ -28,10 +28,15 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "jquery": "^3.3.1",
+    "@storybook/addon-actions": "^5.0.6",
+    "@storybook/addon-knobs": "^5.0.6",
+    "@storybook/addon-notes": "^5.0.6",
+    "@storybook/addons": "^5.0.6",
+    "@storybook/react": "^5.0.6",
     "prettier": "^1.16.4",
     "react-markdown": "^4.0.6",
-    "react-owl-carousel2": "^0.3.0"
+    "react-owl-carousel2": "^0.3.0",
+    "react-scripts": "^2.1.8"
   },
   "keywords": [
     "gatsby"
@@ -42,7 +47,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "storybook": "start-storybook"
   },
   "repository": {
     "type": "git",
