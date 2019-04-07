@@ -1,6 +1,8 @@
 [build]
   publish = "public"
   command = "yarn build"
+[build.storybook]
+  command = "build-storybook" 
 [build.environment]
   YARN_VERSION = "1.12.3"
   YARN_FLAGS = "--no-ignore-optional"
