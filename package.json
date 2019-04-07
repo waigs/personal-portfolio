@@ -48,7 +48,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook -c .storybook -o .out"
   },
   "repository": {
     "type": "git",
