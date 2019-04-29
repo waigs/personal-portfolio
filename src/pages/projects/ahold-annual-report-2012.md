@@ -10,8 +10,8 @@ tags:
   - tagName: JavaScript
   - tagName: PHP
   - tagName: CSS3
-  - tagName: Responsive
   - tagName: HTML5
+  - tagName: Responsive
 devices:
   - deviceName: mobile
   - deviceName: tablet
@@ -20,3 +20,4 @@ sliderImages:
   - image: /assets/dk-ahold2012.png
   - image: /assets/ipad-ahold.png
 ---
+
