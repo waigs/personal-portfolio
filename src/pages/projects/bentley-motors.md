@@ -1,6 +1,6 @@
 ---
 templateKey: projects
-title: Bentley Motors
+title: xBentley Motors
 description: >-
   Worked to deliver responsive templates for Bentley Motors. Fully responsive
   sites built using SASS/Compass.
@@ -18,3 +18,4 @@ sliderImages:
   - image: /assets/ipad-bentley.png
   - image: /assets/dk-bentley.png
 ---
+
