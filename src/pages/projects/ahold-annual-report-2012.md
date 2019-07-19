@@ -1,6 +1,6 @@
 ---
 templateKey: projects
-title: xAhold Annual Report 2012
+title: Ahold Annual Report 2012
 description: >-
   Ahold is a Dutch international retailer based in Amsterdam, Netherlands. I was
   commissioned to build the 2012 Annual report. The site looks simple but its
