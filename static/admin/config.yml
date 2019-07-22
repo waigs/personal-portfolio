@@ -6,6 +6,7 @@ media_folder: static/assets
 public_folder: assets
 
 display_url: 'https://www.waigs.me'
+publish_mode: editorial_workflow
 
 collections:
   - name: pages
