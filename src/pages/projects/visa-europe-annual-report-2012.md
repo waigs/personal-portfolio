@@ -9,8 +9,8 @@ date: 2010-01-01T00:27:11.890Z
 tags:
   - tagName: JavaScript
   - tagName: CSS3
-  - tagName: Responsive
   - tagName: HTML5
+  - tagName: Responsive
 devices:
   - deviceName: mobile
   - deviceName: tablet
@@ -19,3 +19,4 @@ sliderImages:
   - image: /assets/dk-visa2012.png
   - image: /assets/ipad-visa.png
 ---
+
