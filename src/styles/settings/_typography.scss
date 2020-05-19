@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'Lato';
+  font-display: swap;
   font-style: normal;
   font-weight: 300;
   src: local('Lato Light'), local('Lato-Light'),
@@ -8,6 +9,7 @@
 }
 @font-face {
   font-family: 'Lato';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
   src: local('Lato Bold'), local('Lato-Bold'),
@@ -16,6 +18,7 @@
 }
 @font-face {
   font-family: 'Lato';
+  font-display: swap;
   font-style: italic;
   font-weight: 300;
   src: local('Lato Light Italic'), local('Lato-LightItalic'),

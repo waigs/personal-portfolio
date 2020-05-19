@@ -24,7 +24,11 @@ const HTML = props => {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
+        <script
+          src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+          crossOrigin="anonymous"
+        ></script>
       </body>
     </html>
   )
