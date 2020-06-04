@@ -15,7 +15,6 @@ devices:
   - deviceName: tablet
   - deviceName: screen
 sliderImages:
-  - image: /assets/ipad-bentley.png
-  - image: /assets/dk-bentley.png
+  - image: /assets/ipad-bentley.jpg
+  - image: /assets/dk-bentley.jpg
 ---
-

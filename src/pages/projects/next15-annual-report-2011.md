@@ -13,6 +13,6 @@ tags:
 devices:
   - deviceName: mobile
 sliderImages:
-  - image: /assets/m1-next15.png
-  - image: /assets/m2-next15.png
+  - image: /assets/m1-next15.jpg
+  - image: /assets/m2-next15.jpg
 ---

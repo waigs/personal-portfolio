@@ -15,6 +15,6 @@ devices:
   - deviceName: tablet
   - deviceName: screen
 sliderImages:
-  - image: /assets/dk-betfair.png
-  - image: /assets/ipad-betfair.png
+  - image: /assets/dk-betfair.jpg
+  - image: /assets/ipad-betfair.jpg
 ---

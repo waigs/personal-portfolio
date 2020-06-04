@@ -16,7 +16,6 @@ devices:
   - deviceName: tablet
   - deviceName: screen
 sliderImages:
-  - image: /assets/dk-visa2012.png
-  - image: /assets/ipad-visa.png
+  - image: /assets/dk-visa2012.jpg
+  - image: /assets/ipad-visa.jpg
 ---
-

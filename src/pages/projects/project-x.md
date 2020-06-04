@@ -15,5 +15,5 @@ devices:
   - deviceName: tablet
   - deviceName: screen
 sliderImages:
-  - image: /assets/dk-x.png
+  - image: /assets/dk-x.jpg
 ---
