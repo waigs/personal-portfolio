@@ -17,6 +17,6 @@ devices:
   - deviceName: tablet
   - deviceName: screen
 sliderImages:
-  - image: /assets/dk-ahold2012.jpg
-  - image: /assets/ipad-ahold.jpg
+  - image: /assets/dk-ahold2012.jpeg
+  - image: /assets/ipad-ahold.jpeg
 ---

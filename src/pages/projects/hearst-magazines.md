@@ -15,6 +15,6 @@ devices:
   - deviceName: tablet
   - deviceName: screen
 sliderImages:
-  - image: /assets/dk-cosmo.jpg
-  - image: /assets/ipad-cosmo.jpg
+  - image: /assets/dk-cosmo.jpeg
+  - image: /assets/ipad-cosmo.jpeg
 ---

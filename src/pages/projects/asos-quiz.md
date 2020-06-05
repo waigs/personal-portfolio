@@ -15,6 +15,6 @@ devices:
   - deviceName: tablet
   - deviceName: screen
 sliderImages:
-  - image: /assets/dk-asos-quiz.jpg
-  - image: /assets/m-asos-quiz.jpg
+  - image: /assets/dk-asos-quiz.jpeg
+  - image: /assets/m-asos-quiz.jpeg
 ---
