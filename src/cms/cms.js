@@ -1,4 +1,3 @@
-// import CMS from 'netlify-cms'
-// import IndexPagePreview from './preview-templates/IndexPagePreview'
+import CMS from 'netlify-cms-app'
 
-// CMS.registerPreviewTemplate('home', IndexPagePreview)
+CMS.init()
